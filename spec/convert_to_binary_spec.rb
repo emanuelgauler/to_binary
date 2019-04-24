@@ -1,4 +1,4 @@
-class Integer
+module ToBinary
 	def to_binary length = 0
 		n = self
 		b = [self == 0 ? 0 : nil]
@@ -10,6 +10,11 @@ class Integer
 		b.join
 	end
 end
+
+class Integer
+	include ToBinary
+end
+
 describe "#to_binary" do
 	[
 		[1, "1"],
