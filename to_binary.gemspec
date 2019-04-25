@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
 	spec.name		= "to_binary"
-	spec.version		= "1.0.0"
+	spec.version		= "1.0.1"
 	spec.summary		= "Convert Integers to Binary and format the outcome"
 	spec.description	= "Esta gema convierte números enteros a su representación binary, también puede formatear la salida, según convenga"
 	spec.files		= ['lib/to_binary.rb']
