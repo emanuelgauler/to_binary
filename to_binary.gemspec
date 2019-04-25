@@ -7,5 +7,6 @@ Gem::Specification.new do |spec|
 	spec.authors		= ['Emanuel Gauler']
 	spec.email		= "emanuelgauler@gmail.com"
 	spec.homepage		= "https://www.rubygems.org/gems/to_binary"
+	spec.metadata		= {"source_code_uri" => "https://github.com/emanuelgauler/to_binary"}
 	spec.license		= "MIT"
 end
