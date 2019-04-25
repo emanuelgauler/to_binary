@@ -6,7 +6,7 @@ module ToBinary
 			b.unshift n % 2
 			n /= 2
 		end
-		(length-1).times { b.unshift 0 }
+		(length-b.size + 1).times { b.unshift 0 }
 		b.join
 	end
 end
