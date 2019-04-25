@@ -1,4 +1,4 @@
-to_binary es un método auxiliar para convertir números enteros a sus correspondientes binarios
+__to_binary__ es un método auxiliar para convertir números enteros a sus correspondientes binarios
 
 Cómo usar
 
